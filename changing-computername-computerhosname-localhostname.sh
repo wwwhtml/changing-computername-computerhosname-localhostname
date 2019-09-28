@@ -13,9 +13,9 @@ echo "| This script is to rename computer name, hostname, and local hostname    
 echo "+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -+"
 echo
 echo "User Accounts: " 
-ls ~/..
+dscl . list /Users
 echo
-echo "Computer Hostname: " 
+echo "Current Hostname: " 
 hostname
 echo
 echo "+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -+"
